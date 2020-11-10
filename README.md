@@ -2,7 +2,7 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/vanessabau/projectTwo) ![npm version](https://badge.fury.io/js/inquirer.svg)
 
-Beyond Vacation is a centralized location for outdoor rental spaces. Built around the idea of vacationing while still social distancing, it's a vacation away from your (indefinite) vacation.
+Final Phantasy is a computer game based around this app's inspiration, Final Fantasy, for the design and Earthbound gameplay mechanics. 
 
 ## Table of Contents
 
