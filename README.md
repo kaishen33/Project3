@@ -43,9 +43,7 @@ The application is made up of several pages:
 
 ##### Accesssing Home page
 
-On the home page the user can either navigate using the navbar or scroll down to the two square buttons to choose `Browse Rentals` or `List Rentals`. 
-
-If the user is not logged in, they will be redirected to the login page. Where they can login or signup.
+On the home page, the user can log into the game, but if the user cannot login, the user will have to signup using the signup page.
 
 ##### Navigating Members page
 
