@@ -10,10 +10,10 @@ Final Phantasy is a computer game based around this app's inspiration, Final Fan
 * [Overview](#overview)
 * [Usage](#usage)
     - [Accesssing Home page](#accessinghomepage)
-    - [Browsing Rentals](#browsingrentals)
-    - [Listing Rentals](#listingrentals)
-    - [Login](#login)
-    - [Signup](#signup)
+    - [Navigating Store page](#navigatingstore)
+    - [Levels](#levels)
+    - [Final Boss](#finalboss)
+    - [Victory/Defeat](#victorydefeat)
 * [Tech and Methods Breakdown](#techandmethodbreakdown)
     - [Technology](#technology)
     - [Front-End](#frontend)
@@ -36,7 +36,7 @@ The application is made up of several pages:
 2. Signup
 3. Store
 4. Level #
-5. Final boss
+5. Final Boss
 6. Victory/Defeat
 
 ### Usage
@@ -45,17 +45,15 @@ The application is made up of several pages:
 
 On the home page, the user can log into the game, but if the user cannot login, the user will have to signup using the signup page.
 
-##### Navigating Members page
+##### Navigating Store page
 
-Once logged in the user will be redirected to their members page where the rental spaces they have listed and the spaces they've reserved are shown.
+Once logged in the user will be redirected to the store page to buy equipment and potions. These items will increase stats of the player.
 
-Clicking on the arrow for the `Details` button will reveal the details of the listings and reservations. 
+However, there is a limit on how many items a player can buy, because of limited currency call Gil. 
 
-`Delete Listing` will remove their listing from the database.
+##### Level #
 
-`Delete Rental` will cancel their reservation.
-
-##### Browsing Rentals
+Once the player feels ready for combat, he/she can click on the "Continue Adventure" button. 
 
 To access the browse function, click on `Browse Rentals` from the navbar.
 
