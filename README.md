@@ -10,7 +10,6 @@ Final Phantasy is a computer game based around this app's inspiration, Final Fan
 * [Overview](#overview)
 * [Usage](#usage)
     - [Accesssing Home page](#accessinghomepage)
-    - [Navigating Members page](#navigatingmemberspage)
     - [Browsing Rentals](#browsingrentals)
     - [Listing Rentals](#listingrentals)
     - [Login](#login)
@@ -26,21 +25,19 @@ Final Phantasy is a computer game based around this app's inspiration, Final Fan
 
 ### Demo
 
-For a [video demo](https://youtu.be/xY4kl7mzGEk) of the web page
-
-For the [finished web page](https://beyondvacation.herokuapp.com/)
+For the [finished web page](https://dry-mountain-58151.herokuapp.com/)
 
 ### Overview
 
-Once logged in, users can list outdoor locations and reserve locations, as well as view all rental spaces they've listed or reserved in one centralized location on their members page. On said members page, users can remove a rental space they listed or cancel a reservation.
+Once logged in, users will battle monsters to obtain resources to buy materials needed to fight game levels. The goal is to defeat the final boss of the game. If the player beats the final boss, the person will get the victory page. If the player is defeated during any levels, the player will get a defeat page and can restart the game.
 
-The application is made up of six pages:
+The application is made up of several pages:
 1. Home
-2. Members
-3. Browse Rentals
-4. List Rental
-5. Signup
-6. Login
+2. Signup
+3. Store
+4. Level #
+5. Final boss
+6. Victory/Defeat
 
 ### Usage
 
