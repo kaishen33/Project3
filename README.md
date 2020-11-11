@@ -142,9 +142,10 @@ Browse Page:
 
 ### Contributors
 
-* Sandra Arredondo
-* Vanessa Bautista
-* Saular Moaddeli
+* Richard Biala
+* Himadri
+* Yev
+* Garrett
 * KaiWei Shen
 
 ### Launch
