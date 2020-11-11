@@ -55,42 +55,28 @@ However, there is a limit on how many items a player can buy, because of limited
 
 Once the player feels ready for combat, he/she can click on the "Continue Adventure" button. 
 
-To access the browse function, click on `Browse Rentals` from the navbar.
+During Combat, a random enemy will be generated with its own stats. With the weapons and potions purchased, they can be used to increase the following:
+- HP
+- Attack
+- Defense
 
-On the browse page, there are four options to filter by: 
-* Rental type
-    - RV
-    - Campsite
-    - Farmland experience
-    - Waterfront vista
-    - Backyard Oasis
-* Party size 
-* Maximum price per day
-* Location with bathroom facilities (Yes or No)
+There is a counter on the potions stats that tells how many potions are left.
 
-Choose each option one at a time to filter rental spaces and click `Submit`. 
+To beat the level, player stats will subtract the enemy health pool, but be careful as enemy stats will also subtract player health as well.
 
-Rental spaces with these options will be filtered out for your view.
+Depending on outcome, player will gain more Gil and retain their stats for the next round or they will get the defeat page.
 
-To reserve, simply click `Reserve this location`.
+##### Final Boss
 
-##### Listing Rentals
+Final boss is the same concept as the level enemy but with better HP, attack, and defense.
 
-To access the listing function, click on `List Rental` from the navbar.
+Outcomes will depend on the players equipment and stats. The outcomes of the final boss will send the player to the victory page or defeat page.
 
-The user will need to fill out a form with all of the required information before clicking submit:
-* Property Name
-* Rental Type
-* Address
-* City
-* State
-* 5-digit Zip code
-* Price per day
-* Party size
-* Whether the rental space has accessable bathroom facilities
-* And if the location is currently available
+##### Victory/Defeat
 
-Once done, click `Submit`.
+If the player beats the final boss, the victory page will show up.
+
+If the player is defeated in any level, the defeat page will show up.
 
 ##### Login
 
