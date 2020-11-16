@@ -1,7 +1,5 @@
 # Project3
 
-![GitHub last commit](https://img.shields.io/github/last-commit/vanessabau/projectTwo) ![npm version](https://badge.fury.io/js/inquirer.svg)
-
 Final Phantasy is a computer game based around this app's inspiration, Final Fantasy, for the design and Earthbound gameplay mechanics. 
 
 ## Table of Contents
