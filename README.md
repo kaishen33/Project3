@@ -137,7 +137,7 @@ Api-routes was the in-between for the database and the front end. Passport was u
 
 ### Launch
 
-Date [application](https://beyondvacation.herokuapp.com/) releases: `July 21st, 2020`
+Date [application](https://dry-mountain-58151.herokuapp.com/ releases: `July 21st, 2020`
 
 ### Future Development
 
