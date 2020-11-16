@@ -99,11 +99,8 @@ Once done, click `Submit`. User will be redirected to login page.
 
 * VS Code v1.47.1
 * Node v12.16.1
-* MySQL v8.0.20
-* MVC Pattern
-* Express-handlebars
-* handlebars
-* Sequelize
+* React.js
+* Mongo
 * req-flash
 * express-session
 * passport
@@ -114,38 +111,28 @@ Once done, click `Submit`. User will be redirected to login page.
 
 ##### Front-End
 
-Handlebars with express-handlebars was used for templating. Bootstrap was the backbone html and css that the application was built off of. Adobe InDesign was used to create visual template for home page.
-
-jQuery was used for all the functionality of the application. Ajax calls (get, post, put, delete) were used to talk to the database to pull data from Poster and User models.
+React JS allowed us to create separate pages with their own functions. They are connected to each other in the App.js under client folder, like a front-end router. API calls were used throughout the components that made up the pages.
 
 ##### Back-End
 
-Database was made using MySQL and Sequelize. 
+Database was made using Mongo. 
 
-Two models make up the database: User.js and Poster.js 
+Back-end route starts with models -> controllers -> routes -> API 
 
-User.js holds the first and last name of the user, as well as the email and password. Passport is used to protect the user's password from exposure and is used to authenticate credentials.
+Three models make up the database: item, stats, and user. 
 
-Poster.js holds all other information, information from the `List Rental` form, id of user (from User model) who reserved it, foreign id with User model to associate listings with users.
+User.js holds the first and last name of the user, as well as the email and password. Email and password are used to confirm user login and each new signup will have its own unique id.
 
-Handlebars-routes render the handlebars templates and related jquery file for the related template. And use middleware to protect the browser, list, and members pages from a user accessing them without loggin in first.
+Stats.js and item.js hold similar information for different purposes. Stats.js is used for the player progression while items.js is for the store materials.  
 
-Api-routes was the in-between for the database and the front end. Passport was used to autheticate credentials when a user logs in. Req-flash was used to log errors to the terminal when incorrect email or password was entered. 
-
-### Known Issues
-
-Browse Page:
-* Less than or equal to operator not working, cards will only render if options chosen exactly match info on rental space
-* Choosing party size + max price per day must be submitted twice for cards to render
-* Choosing rental type, party size and bathroom facilities work together at the first submit but not with max price per day included
-    - All options must be chosen and submitted twice
+Api-routes was the in-between for the database and the front end. Passport was used to autheticate credentials when a user logs in. 
 
 ### Contributors
 
 * Richard Biala
-* Himadri
-* Yev
-* Garrett
+* Himadri SInha
+* Yev 
+* Garrett Hiebert
 * KaiWei Shen
 
 ### Launch
